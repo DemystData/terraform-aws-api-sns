@@ -8,6 +8,7 @@ module "sns_integration" {
   http_method        = var.http_method
   authorization      = var.authorization
   method_request_parameters = var.method_request_parameters
+  name = var.name
 
   integration_http_method = "POST"
   type                    = "AWS"
