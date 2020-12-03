@@ -2,7 +2,6 @@ data "aws_region" "current" {}
 
 module "sns_integration" {
   source = "github.com/DemystData/terraform-aws-api-generic"
-  version = "1.0.3"
 
   api_id             = var.api_id
   resource_id        = var.resource_id
